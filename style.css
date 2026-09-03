@@ -203,18 +203,19 @@ body.deck-page {
   height: 100%;
 }
 
-.back-link {
+.deck-close {
   position: fixed;
-  top: 28px;
-  left: 40px;
+  top: 20px;
+  right: 32px;
   z-index: 20;
-  font-size: 14px;
-  letter-spacing: 0.03em;
+  font-size: 34px;
+  font-weight: 300;
+  line-height: 1;
   color: #fff;
 }
 
-.back-link:hover {
-  opacity: 0.7;
+.deck-close:hover {
+  opacity: 0.6;
 }
 
 .deck {
@@ -232,21 +233,20 @@ body.deck-page {
 }
 
 .slide {
-  height: 100vh;
+  height: 85vh;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  scroll-snap-align: center;
+  scroll-snap-align: start;
   scroll-snap-stop: always;
-  padding: 40px;
-  transition: filter 0.15s linear, opacity 0.15s linear, transform 0.15s linear;
-  will-change: filter, opacity, transform;
+  padding: 32px;
+  will-change: filter, opacity;
 }
 
 .slide img {
-  max-width: 90vw;
-  max-height: 84vh;
+  max-width: 88vw;
+  max-height: 76vh;
   width: auto;
   height: auto;
   display: block;
@@ -264,9 +264,10 @@ body.deck-page {
 }
 
 @media (max-width: 600px) {
-  .back-link {
-    top: 20px;
-    left: 20px;
+  .deck-close {
+    top: 16px;
+    right: 20px;
+    font-size: 28px;
   }
 
   .slide {

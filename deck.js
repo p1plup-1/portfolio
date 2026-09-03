@@ -5,21 +5,17 @@ if (deck && slides.length) {
   let ticking = false;
 
   const update = () => {
-    const center = deck.clientHeight / 2;
-
     slides.forEach((slide) => {
       const rect = slide.getBoundingClientRect();
-      const slideCenter = rect.top + rect.height / 2;
-      const distance = Math.abs(slideCenter - center);
-      const normalized = Math.min(distance / deck.clientHeight, 1);
+      const distance = Math.abs(rect.top);
+      const normalized = Math.min(distance / rect.height, 1);
 
-      const blur = normalized * 16;
-      const opacity = Math.max(1 - normalized * 1.15, 0.12);
-      const scale = 1 - normalized * 0.1;
+      const inFocus = normalized < 0.03;
+      const blur = normalized * 14;
+      const opacity = Math.max(1 - normalized * 0.85, 0.4);
 
-      slide.style.filter = `blur(${blur}px)`;
-      slide.style.opacity = opacity;
-      slide.style.transform = `scale(${scale})`;
+      slide.style.filter = inFocus ? "none" : `blur(${blur}px)`;
+      slide.style.opacity = inFocus ? 1 : opacity;
     });
 
     ticking = false;
