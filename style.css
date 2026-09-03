@@ -37,9 +37,26 @@ a {
 }
 
 .intro {
+  position: relative;
   flex: 0 0 auto;
   width: min(36vw, 480px);
+}
+
+.intro::before {
+  content: "";
+  position: absolute;
+  inset: -32px;
   background: var(--bg);
+  mask-image:
+    linear-gradient(to right, transparent, #000 40px, #000 calc(100% - 40px), transparent),
+    linear-gradient(to bottom, transparent, #000 40px, #000 calc(100% - 40px), transparent);
+  mask-composite: intersect;
+  -webkit-mask-image:
+    linear-gradient(to right, transparent, #000 40px, #000 calc(100% - 40px), transparent),
+    linear-gradient(to bottom, transparent, #000 40px, #000 calc(100% - 40px), transparent);
+  -webkit-mask-composite: source-in;
+  z-index: -1;
+  pointer-events: none;
 }
 
 h1 {
