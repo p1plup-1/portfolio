@@ -5,9 +5,12 @@ if (deck && slides.length) {
   let ticking = false;
 
   const update = () => {
+    const viewportCenter = deck.clientHeight / 2;
+
     slides.forEach((slide) => {
       const rect = slide.getBoundingClientRect();
-      const distance = Math.abs(rect.top);
+      const slideCenter = rect.top + rect.height / 2;
+      const distance = Math.abs(slideCenter - viewportCenter);
       const normalized = Math.min(distance / rect.height, 1);
 
       const inFocus = normalized < 0.03;

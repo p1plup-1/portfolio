@@ -223,6 +223,7 @@ body.deck-page {
   inset: 0;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
   background: var(--deck-bg);
   scrollbar-width: none;
   -ms-overflow-style: none;
@@ -233,12 +234,12 @@ body.deck-page {
 }
 
 .slide {
-  height: 85vh;
+  height: 82vh;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  scroll-snap-align: start;
+  scroll-snap-align: center;
   scroll-snap-stop: always;
   padding: 32px;
   will-change: filter, opacity;
@@ -246,21 +247,11 @@ body.deck-page {
 
 .slide img {
   max-width: 88vw;
-  max-height: 76vh;
+  max-height: 72vh;
   width: auto;
   height: auto;
   display: block;
   box-shadow: 0 30px 80px rgba(0, 0, 0, 0.5);
-}
-
-.slide-end {
-  flex-direction: column;
-  gap: 24px;
-}
-
-.deck-page .projects-link {
-  color: #fff;
-  font-size: 20px;
 }
 
 @media (max-width: 600px) {
