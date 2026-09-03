@@ -22,89 +22,64 @@ a {
   text-decoration: none;
 }
 
-/* Nav */
-
-.nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 28px 40px;
-  z-index: 10;
+.page {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 100px 40px 120px;
 }
 
-.logo {
+h1 {
+  font-size: clamp(60px, 14vw, 140px);
+  line-height: 0.88;
   font-weight: 600;
-  font-size: 14px;
-  letter-spacing: 0.08em;
+  letter-spacing: -0.02em;
 }
 
-.menu {
-  display: flex;
-  align-items: center;
-  gap: 36px;
+.tagline {
+  margin-top: 20px;
+  font-size: 16px;
+  color: var(--muted);
+  letter-spacing: 0.02em;
 }
 
-.menu-link,
-.dropdown-toggle {
-  font-size: 14px;
-  letter-spacing: 0.03em;
-  background: none;
-  border: none;
-  cursor: pointer;
-  font-family: inherit;
-  color: inherit;
-  padding: 0;
+/* Info blocks */
+
+.info-block {
+  margin-top: 64px;
+  padding-top: 32px;
+  border-top: 1px solid var(--border);
 }
 
-/* Dropdowns */
-
-.dropdown {
-  position: relative;
+.info-block h4 {
+  font-size: 12px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-weight: 600;
+  margin-bottom: 20px;
 }
 
-.dropdown-panel {
-  position: absolute;
-  top: calc(100% + 18px);
-  right: 0;
-  min-width: 220px;
-  background: #fff;
-  border: 1px solid var(--border);
-  padding: 20px;
+.info-content {
   display: flex;
   flex-direction: column;
-  gap: 12px;
-  opacity: 0;
-  visibility: hidden;
-  transform: translateY(-6px);
-  transition: opacity 0.15s ease, transform 0.15s ease;
+  gap: 10px;
 }
 
-.dropdown.open .dropdown-panel {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(0);
+.info-content a {
+  font-size: 16px;
+  width: fit-content;
 }
 
-.dropdown-panel a {
-  font-size: 14px;
-  white-space: nowrap;
-}
-
-.dropdown-panel a:hover {
+.info-content a:hover {
   color: var(--muted);
 }
 
 .skills-panel {
   flex-direction: row;
-  gap: 32px;
-  min-width: 340px;
+  gap: 48px;
 }
 
-.skills-group h4 {
+.skills-group h5 {
   font-size: 11px;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -121,50 +96,26 @@ a {
 }
 
 .skills-group li {
-  font-size: 14px;
-  white-space: nowrap;
+  font-size: 15px;
 }
 
-/* Hero */
-
-.hero {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 40px;
-}
-
-.hero h1 {
-  font-size: clamp(60px, 14vw, 220px);
-  line-height: 0.88;
-  font-weight: 600;
-  letter-spacing: -0.02em;
-}
-
-.tagline {
-  margin-top: 24px;
+.projects-link {
+  display: inline-block;
   font-size: 16px;
+  font-weight: 600;
+}
+
+.projects-link:hover {
   color: var(--muted);
-  letter-spacing: 0.02em;
 }
 
 @media (max-width: 600px) {
-  .nav {
-    padding: 20px;
-  }
-
-  .menu {
-    gap: 20px;
+  .page {
+    padding: 60px 24px 80px;
   }
 
   .skills-panel {
     flex-direction: column;
     gap: 20px;
-    min-width: 200px;
-  }
-
-  .dropdown-panel {
-    right: -20px;
   }
 }
