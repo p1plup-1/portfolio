@@ -30,6 +30,7 @@ Edward builds real things. Their projects go past renders to working physical pr
 - Static HTML/CSS site: `index.html` (Work), `about.html` (About), `style.css`. No framework or build step.
 - Industrial/physical product design only. Digital/UX work is not the focus.
 - Software listed: SolidWorks, Fusion 360, KeyShot, Vizcom, Photoshop, Lightroom, InDesign, Premiere Pro.
+- Electronics and code: ESP32, Raspberry Pi, Arduino, Python, C++, circuit electronics, soldering, sensors & motors, PCB design, 3D printing, laser cutting.
 - Project count: about eight, matching the current grid.
 - Open: hosting/deploy target, project titles and order, and the structure of project detail pages.
 
