@@ -5,96 +5,116 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>About — Edward Xu</title>
+    <meta
+      name="description"
+      content="About Edward Xu: industrial design student, skills, software and contact."
+    />
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
+    <script>
+      document.documentElement.classList.add("js");
+    </script>
   </head>
 
-  <body>
-    <nav class="site-nav">
-      <a href="index.html">Work</a>
-      <a href="about.html" aria-current="page">About</a>
-    </nav>
+  <body class="page-about">
+    <header class="bar">
+      <a class="bar-mark" href="index.html">Edward Xu</a>
+      <nav class="bar-links" aria-label="Main">
+        <a class="link" href="index.html#work">Work</a>
+        <a class="link" href="about.html" aria-current="page">About</a>
+        <a class="button button-small" href="mailto:edward.xu2005@outlook.com?subject=Industrial%20design%20internship"
+          >Email</a
+        >
+      </nav>
+    </header>
 
-    <div class="about">
-      <main class="intro">
-        <h1>About</h1>
-        <p class="tagline">Edward Xu — Product Design</p>
+    <main>
+      <section class="about" aria-labelledby="about-title">
+        <h1 id="about-title" class="about-title reveal">About Edward</h1>
 
-        <section class="info-block">
-          <h4>Skills</h4>
-          <div class="info-content about-skills">
-            <div class="about-skill">
-              <h5>Research &amp; Analysis</h5>
-              <p>Finding the right problems to solve through evidence and insight.</p>
-              <p class="about-skill-detail">
-                User &amp; expert interviews, product analysis, …
-              </p>
+        <div class="about-row">
+          <dl class="facts reveal">
+            <div>
+              <dt>Studying</dt>
+              <dd>Industrial design</dd>
             </div>
-            <div class="about-skill">
-              <h5>Conceptualisation</h5>
-              <p>Exploring and communicating ideas across many formats.</p>
-              <p class="about-skill-detail">
-                Sketches, mock-ups, role-plays, videos, …
-              </p>
+            <div>
+              <dt>Year</dt>
+              <dd>Final years, undergraduate</dd>
             </div>
-            <div class="about-skill">
-              <h5>Development</h5>
-              <p>Turning concepts into working, production-ready products.</p>
-              <p class="about-skill-detail">
-                CAD modeling, construction, prototyping, …
-              </p>
+            <div>
+              <dt>Looking for</dt>
+              <dd>An internship</dd>
             </div>
-          </div>
-        </section>
-
-        <section class="info-block">
-          <h4>Learning</h4>
-          <div class="info-content about-text">
-            <p>
-              One of my key strengths is being able to learn new skills very
-              quickly and adopt those into my work.
-            </p>
-          </div>
-        </section>
-
-        <section class="info-block">
-          <h4>Software</h4>
-          <div class="info-content skills-group">
-            <ul class="software-list">
-              <li>SolidWorks</li>
-              <li>Fusion 360</li>
-              <li>KeyShot</li>
-              <li>Vizcom</li>
-              <li>Photoshop</li>
-              <li>Lightroom</li>
-              <li>InDesign</li>
-              <li>Premiere Pro</li>
-            </ul>
-          </div>
-        </section>
-
-        <section class="info-block">
-          <h4>Contact</h4>
-          <div class="info-content">
-            <a href="mailto:edward.xu2005@outlook.com"
-              >edward.xu2005@Outlook.com</a
-            >
-            <a href="tel:+19254133229">925-413-3229</a>
-            <a
-              href="https://www.linkedin.com/in/ed-xu/"
-              target="_blank"
-              rel="noopener"
-              >LinkedIn ↗</a
-            >
-          </div>
-        </section>
-      </main>
-
-      <aside class="about-photo">
-        <div class="tile">
-          <span class="tile-label">Portrait</span>
+          </dl>
+          <p class="about-lead reveal">
+            I design physical products and build them until they work. I start by finding the
+            right problem through interviews and product analysis, explore it in sketches,
+            mock-ups, role-plays and video, then model it in CAD and make the prototype. I learn new
+            tools quickly and put them straight into the work.
+          </p>
         </div>
-      </aside>
-    </div>
+
+        <div class="about-row about-record">
+          <h2 class="record-word reveal">Skills</h2>
+          <div class="record-lists">
+            <ul class="record reveal">
+              <li><span>Research &amp; analysis</span><span>Interviews, product analysis</span></li>
+              <li><span>Conceptualisation</span><span>Sketches, mock-ups, video</span></li>
+              <li><span>Development</span><span>CAD, construction, prototyping</span></li>
+            </ul>
+            <div class="reveal">
+              <h3 class="record-sub">Software</h3>
+              <ul class="record record-plain">
+                <li>SolidWorks</li>
+                <li>Fusion 360</li>
+                <li>KeyShot</li>
+                <li>Vizcom</li>
+                <li>Photoshop</li>
+                <li>Lightroom</li>
+                <li>InDesign</li>
+                <li>Premiere Pro</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact" aria-labelledby="contact-title">
+        <h2 id="contact-title" class="visually-hidden">Contact</h2>
+        <p class="contact-statement">
+          Looking for an industrial design internship. Send a brief or a question.
+        </p>
+        <div class="contact-portrait" role="img" aria-label="Portrait of Edward Xu"></div>
+        <div class="contact-reach">
+          <p class="contact-question">Hiring an intern?</p>
+          <a class="link" href="mailto:edward.xu2005@outlook.com?subject=Industrial%20design%20internship"
+            >edward.xu2005@outlook.com</a
+          >
+          <a class="link" href="https://www.linkedin.com/in/ed-xu/" target="_blank" rel="noopener"
+            >LinkedIn</a
+          >
+          <p class="contact-note">Or call <a href="tel:+19254133229">925-413-3229</a></p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p class="footer-what">Edward Xu, industrial design</p>
+      <nav class="footer-links" aria-label="Footer">
+        <a class="link" href="index.html#work">Work</a>
+        <a class="link" href="about.html">About</a>
+        <a class="link" href="mailto:edward.xu2005@outlook.com">Email</a>
+      </nav>
+      <p class="footer-year">2026</p>
+    </footer>
+
+    <script src="main.js" defer></script>
   </body>
 </html>
