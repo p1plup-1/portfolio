@@ -157,6 +157,25 @@ a {
   opacity: 1;
 }
 
+@media (hover: hover) and (prefers-reduced-motion: no-preference) {
+  .tile {
+    transition:
+      transform 0.35s cubic-bezier(0.34, 1.56, 0.64, 1),
+      box-shadow 0.35s ease;
+  }
+
+  .tile:hover,
+  .tile:focus-visible {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 18px 36px rgba(0, 0, 0, 0.14);
+  }
+
+  .tile:active {
+    transform: translateY(-4px) scale(1.01);
+    transition-duration: 0.12s;
+  }
+}
+
 /* Touch screens: no hover, so the title sits under the picture. */
 @media (hover: none) {
   .tile-meta {
