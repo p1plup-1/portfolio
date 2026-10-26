@@ -12,7 +12,7 @@ Recruiters and design leads at studios, consultancies, and in-house product team
 
 ## Product Purpose
 
-A personal portfolio site for Edward Xu, an undergraduate industrial design student in the final years of their degree. It exists to land an industrial/product design internship. Success means a reviewer quickly understands the kind of designer Edward is, opens a project, sees evidence that they can take a concept from research to a built object, and gets in touch.
+A personal portfolio site for Edward Xu, a product and industrial designer studying for an MFA in Product / Industrial Design at Parsons School of Design (class of 2028). It exists to land an industrial/product design internship, though the site itself does not say "looking for an internship". Success means a reviewer quickly understands the kind of designer Edward is, opens a project, sees evidence that they can take a concept from research to a built object, and gets in touch.
 
 ## Positioning
 
@@ -37,6 +37,7 @@ Edward builds real things. Their projects go past renders to working physical pr
 
 - Name: Edward Xu. Title line: "Product Design".
 - Voice on the About page: plain, first person, short.
+- Education: Parsons School of Design, MFA Product / Industrial Design, 2028.
 
 ## Evidence on Hand
 
