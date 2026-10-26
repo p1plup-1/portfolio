@@ -63,6 +63,43 @@ a {
 
 /* About */
 
+.about {
+  margin: 0;
+}
+
+.about .intro {
+  width: min(48vw, 640px);
+}
+
+.about-skills {
+  gap: 28px;
+}
+
+.about-skill h5 {
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.about-skill p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.about-skill .about-skill-detail {
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.skills-group .software-list {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  column-gap: 48px;
+}
+
 .about-text p {
   font-size: 16px;
   line-height: 1.6;
@@ -246,6 +283,10 @@ h1 {
     flex-direction: column;
     gap: 48px;
     padding: 36px 24px 80px;
+  }
+
+  .about .intro {
+    width: 100%;
   }
 
   .about-photo {
