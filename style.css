@@ -313,9 +313,6 @@ a {
 }
 
 .project-head {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 70px;
   margin-top: 50px;
 }
 
@@ -330,14 +327,6 @@ a {
   margin-top: 8px;
   font-size: 18px;
   font-weight: 200;
-}
-
-.project-facts dd {
-  margin: 0;
-}
-
-.project-facts .entry + .entry {
-  margin-top: 10px;
 }
 
 .project-section {
@@ -496,8 +485,6 @@ a {
   }
 
   .project-head {
-    grid-template-columns: 1fr;
-    gap: 28px;
     margin-top: 32px;
   }
 
