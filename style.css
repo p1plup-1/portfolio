@@ -297,6 +297,124 @@ a {
   border-color: var(--ink-strong);
 }
 
+/* Project page */
+
+.project {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 70px var(--margin) 120px;
+}
+
+.project-hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+  background: var(--tile);
+}
+
+.project-head {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 70px;
+  margin-top: 50px;
+}
+
+.project-head h1 {
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 1.1;
+  color: var(--ink-strong);
+}
+
+.project-lede {
+  margin-top: 8px;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.project-facts dd {
+  margin: 0;
+}
+
+.project-facts .entry + .entry {
+  margin-top: 10px;
+}
+
+.project-section {
+  margin-top: 90px;
+}
+
+.project-text {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.project-text h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--ink-strong);
+}
+
+.project-text p {
+  margin-top: 14px;
+  max-width: 60ch;
+  font-size: 15px;
+  line-height: 1.45;
+}
+
+.project-media {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-top: 32px;
+}
+
+.project-slot {
+  aspect-ratio: 3 / 2;
+  background: var(--tile);
+}
+
+.project-slot-wide {
+  grid-column: 1 / -1;
+  aspect-ratio: 16 / 9;
+}
+
+.project-slot img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-next {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  margin-top: 110px;
+  padding-top: 40px;
+  border-top: 1px solid var(--line);
+  text-align: center;
+}
+
+.project-next span {
+  font-size: 15px;
+  color: var(--muted);
+}
+
+.project-next strong {
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 1.1;
+  color: var(--ink-strong);
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s;
+}
+
+.project-next:hover strong {
+  border-color: var(--ink-strong);
+}
+
 /* Footer */
 
 .site-footer {
@@ -371,6 +489,28 @@ a {
 
   .entry {
     grid-template-columns: 90px 1fr;
+  }
+
+  .project {
+    padding-top: 30px;
+  }
+
+  .project-head {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    margin-top: 32px;
+  }
+
+  .project-section {
+    margin-top: 64px;
+  }
+
+  .project-media {
+    grid-template-columns: 1fr;
+  }
+
+  .project-next {
+    margin-top: 80px;
   }
 
   .site-footer {
