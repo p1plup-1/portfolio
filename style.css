@@ -312,6 +312,11 @@ a {
   background: var(--tile);
 }
 
+.project-hero-empty {
+  aspect-ratio: 16 / 9;
+  background: var(--tile);
+}
+
 .project-head {
   margin-top: 50px;
 }
@@ -373,6 +378,23 @@ a {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+/* Diagrams and drawings: shown whole, never cropped. */
+.project-figure {
+  margin-top: 32px;
+}
+
+.project-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.project-figure figcaption {
+  margin-top: 10px;
+  font-size: 15px;
+  color: var(--muted);
 }
 
 .project-next {

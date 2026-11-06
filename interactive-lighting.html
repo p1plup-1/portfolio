@@ -30,12 +30,8 @@
     </header>
 
     <main class="project">
-      <figure class="project-hero">
-        <img
-          src="images/ruins.jpg"
-          alt="Lamp made of a blackened rebar frame set into a rough concrete block, lit from within"
-        />
-      </figure>
+      <!-- PLACEHOLDER hero: put <img src="..." alt=""> inside once there's a photo or render. -->
+      <figure class="project-hero project-hero-empty"></figure>
 
       <section class="project-head">
         <div>
@@ -89,11 +85,20 @@
             learned making it.
           </p>
         </div>
-        <div class="project-media">
-          <div class="project-slot project-slot-wide"></div>
-          <div class="project-slot"></div>
-          <div class="project-slot"></div>
-        </div>
+        <figure class="project-figure">
+          <img
+            src="images/interactive-lighting-pcb.png"
+            alt="KiCad PCB layout labelled light v1: an ESP32 board on the right, six sensor headers along the top and bottom edges, and six MOSFET LED channels across the middle"
+          />
+          <figcaption>PCB layout</figcaption>
+        </figure>
+        <figure class="project-figure">
+          <img
+            src="images/interactive-lighting-schematic.png"
+            alt="KiCad schematic: barrel jack power input, six MOSFET-switched LED outputs and six sensor connectors wired to a NodeMCU-32S"
+          />
+          <figcaption>Schematic</figcaption>
+        </figure>
       </section>
 
       <a class="project-next" href="modular-power-grid.html">
