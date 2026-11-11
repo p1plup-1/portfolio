@@ -1,12 +1,14 @@
 :root {
-  --bg: #ffffff;
-  --band: #f7f7f7;
-  --ink: #292a2c;
-  --ink-strong: #020202;
-  --muted: #727272;
-  --line: #e2e2e2;
-  --tile: #ececec;
-  --overlay: rgba(28, 28, 30, 0.72);
+  /* Palette sampled from the K.O. II: warm panel, grey body, black keys, orange. */
+  --bg: #e3dfdc;          /* top panel / mic body */
+  --band: #cbc9c8;        /* top connector strip */
+  --ink: #2a2a2a;
+  --ink-strong: #171717;  /* display glass */
+  --muted: #5f5d5b;       /* key legends (darkened from #7f807d for 4.5:1 contrast) */
+  --line: #b9b6b3;
+  --tile: #d3d0cd;
+  --accent: #fb5715;      /* COMMIT / INPUT orange */
+  --overlay: rgba(23, 23, 23, 0.86);
 
   --margin: 35px;
   --gap: 30px;
@@ -34,7 +36,7 @@ a {
 }
 
 :focus-visible {
-  outline: 2px solid var(--ink);
+  outline: 2px solid var(--accent);
   outline-offset: 3px;
 }
 
@@ -74,7 +76,7 @@ a {
 .site-nav a:hover,
 .site-nav a[aria-current="page"] {
   color: var(--ink-strong);
-  border-color: var(--ink-strong);
+  border-color: var(--accent);
 }
 
 /* Intro */
@@ -294,7 +296,7 @@ a {
 }
 
 .entry a:hover {
-  border-color: var(--ink-strong);
+  border-color: var(--accent);
 }
 
 /* Project page */
@@ -427,7 +429,7 @@ a {
 }
 
 .project-next:hover strong {
-  border-color: var(--ink-strong);
+  border-color: var(--accent);
 }
 
 /* Footer */
@@ -443,7 +445,7 @@ a {
 }
 
 .site-footer a:hover {
-  color: var(--ink-strong);
+  color: var(--accent);
 }
 
 /* Smaller screens */
