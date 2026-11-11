@@ -528,3 +528,33 @@ a {
     gap: 12px;
   }
 }
+
+/* Sketch wall: every sketch on one screen. 5 columns x 4 rows of 3:2 cells,
+   width capped so the four rows fit in the viewport height. */
+.project > .project-sketches {
+  width: min(100% - 2 * var(--margin), (100vh - 60px) * 1.85);
+}
+
+.sketch-wall {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+}
+
+.sketch-wall img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: contain;
+  background: #fff;
+}
+
+@media (max-width: 600px) {
+  .project > .project-sketches {
+    width: calc(100% - 2 * var(--margin));
+  }
+
+  .sketch-wall {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
