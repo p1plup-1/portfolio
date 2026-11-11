@@ -529,32 +529,39 @@ a {
   }
 }
 
-/* Sketch wall: every sketch on one screen. 5 columns x 4 rows of 3:2 cells,
-   width capped so the four rows fit in the viewport height. */
+/* Sketch wall: every sketch on one screen, scattered like a sketchbook page.
+   Positions are inline percentages of a 100:52 canvas; width capped so the
+   whole canvas fits in the viewport height. */
 .project > .project-sketches {
-  width: min(100% - 2 * var(--margin), (100vh - 60px) * 1.85);
+  width: min(100% - 2 * var(--margin), (100vh - 60px) * 100 / 52);
 }
 
 .sketch-wall {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 8px;
+  position: relative;
+  aspect-ratio: 100 / 52;
 }
 
 .sketch-wall img {
+  position: absolute;
   display: block;
-  width: 100%;
-  aspect-ratio: 3 / 2;
-  object-fit: contain;
-  background: #fff;
+  height: auto;
 }
 
+/* Phones: too small to scatter, so stack them in two loose columns. */
 @media (max-width: 600px) {
   .project > .project-sketches {
     width: calc(100% - 2 * var(--margin));
   }
 
   .sketch-wall {
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    aspect-ratio: auto;
+  }
+
+  .sketch-wall img {
+    position: static;
+    width: 100% !important;
   }
 }
