@@ -24,8 +24,7 @@
   --step-body: clamp(1.0625rem, 1rem + 0.25vw, 1.1875rem);
   --step-lead: clamp(1.25rem, 1.1rem + 0.7vw, 1.625rem);
   --step-head: clamp(2.5rem, 1.2rem + 5vw, 5.5rem);
-  /* "EDWARD XU" in Anton is 4.16em wide: 23.9cqw of its container fills the measure on one line */
-  --step-name: 23.9cqw;
+  --step-name: clamp(2rem, 1.4rem + 2vw, 3rem);
 
   /* frame */
   --margin: 24px;
@@ -115,17 +114,15 @@ img {
   transform: scale(0.97);
 }
 
-/* Header: navigation in the top-right corner, the name across the full width */
+/* Header: the name on the left, navigation on the right, one row */
 
 .site-header {
   display: flex;
-  flex-direction: column;
-  padding: 20px var(--margin) 0;
-  container-type: inline-size;
-}
-
-.site-header .site-nav {
-  order: -1;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 24px;
+  padding: 24px var(--margin) 0;
 }
 
 .site-nav {
@@ -153,16 +150,14 @@ img {
 
 .wordmark {
   display: block;
-  margin-top: 12px;
   font-family: var(--font-display);
   font-weight: 400;
   font-size: var(--step-name);
-  line-height: 0.82;
-  letter-spacing: -0.01em;
+  line-height: 1;
+  letter-spacing: 0.01em;
   text-transform: uppercase;
   white-space: nowrap;
   color: var(--ink);
-  transform-origin: left bottom;
 }
 
 .wordmark a {
@@ -605,8 +600,6 @@ img {
   padding: 40px var(--margin);
   background: var(--field);
   color: var(--field-ink);
-  overflow: hidden;
-  container-type: inline-size;
 }
 
 .footer-links {
@@ -674,15 +667,6 @@ img {
     transform: scale(1.12);
     animation: hero-settle 1300ms var(--ease-expo) 100ms forwards;
   }
-
-  /* The name settles a few percent as the first screen scrolls away. */
-  @supports (animation-timeline: scroll()) {
-    .site-header .wordmark {
-      animation: name-settle linear both;
-      animation-timeline: scroll(root);
-      animation-range: 0 70vh;
-    }
-  }
 }
 
 @keyframes hero-open {
@@ -694,12 +678,6 @@ img {
 @keyframes hero-settle {
   to {
     transform: none;
-  }
-}
-
-@keyframes name-settle {
-  to {
-    scale: 0.94;
   }
 }
 
