@@ -300,9 +300,13 @@ a {
 /* Project page */
 
 .project {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 70px var(--margin) 120px;
+  padding-bottom: 120px;
+}
+
+/* Everything but the hero keeps the 1000px column. */
+.project > :not(.project-hero) {
+  width: min(100% - 2 * var(--margin), 1000px - 2 * 35px);
+  margin-inline: auto;
 }
 
 .project-hero img {
@@ -500,10 +504,6 @@ a {
 
   .entry {
     grid-template-columns: 90px 1fr;
-  }
-
-  .project {
-    padding-top: 30px;
   }
 
   .project-head {
