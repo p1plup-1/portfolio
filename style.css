@@ -597,12 +597,12 @@ img {
   transform: translateX(12px);
 }
 
-/* Footer: inverse ground, the name returns at full width */
+/* Footer: inverse ground, the contact links */
 
 .site-footer {
   display: flex;
   flex-direction: column;
-  padding: 48px var(--margin) 20px;
+  padding: 40px var(--margin);
   background: var(--field);
   color: var(--field-ink);
   overflow: hidden;
@@ -628,16 +628,6 @@ img {
   text-decoration-thickness: 3px;
 }
 
-.footer-name {
-  margin-top: 48px;
-  font-family: var(--font-display);
-  font-size: var(--step-name);
-  line-height: 0.8;
-  letter-spacing: -0.01em;
-  text-transform: uppercase;
-  white-space: nowrap;
-  transform-origin: left bottom;
-}
 
 /* Sketch wall: every sketch on one screen, scattered like a sketchbook page.
    Positions are inline percentages of a 100:52 canvas; width capped so the
@@ -685,18 +675,12 @@ img {
     animation: hero-settle 1300ms var(--ease-expo) 100ms forwards;
   }
 
-  /* The name settles a few percent as the first screen scrolls away, and grows back into the footer. */
+  /* The name settles a few percent as the first screen scrolls away. */
   @supports (animation-timeline: scroll()) {
     .site-header .wordmark {
       animation: name-settle linear both;
       animation-timeline: scroll(root);
       animation-range: 0 70vh;
-    }
-
-    .footer-name {
-      animation: name-arrive linear both;
-      animation-timeline: view();
-      animation-range: entry 0% entry 100%;
     }
   }
 }
@@ -719,11 +703,6 @@ img {
   }
 }
 
-@keyframes name-arrive {
-  from {
-    scale: 0.94;
-  }
-}
 
 /* Smaller screens */
 
