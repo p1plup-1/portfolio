@@ -1,18 +1,17 @@
 {
  "url": "about.html",
- "at": "2026-11-11T23:21:39.057Z",
+ "at": "2026-11-11T23:38:04.435Z",
  "allow": [],
  "viewports": [
   {
    "width": 1440,
    "height": 900,
    "load": "load",
-   "screens": 4,
+   "screens": 3,
    "filled": [
-    0.69,
-    0.15,
-    0.38,
-    0.47
+    0.27,
+    0.13,
+    0.22
    ],
    "motion": {
     "elements": 0,
@@ -28,9 +27,9 @@
      "h": 900
     },
     "page": {
-     "height": 2817,
-     "screens": 3.1,
-     "words": 193,
+     "height": 2246,
+     "screens": 2.5,
+     "words": 192,
      "img": 0,
      "video": 0,
      "canvas": 0,
@@ -51,24 +50,24 @@
      "videosNoPoster": 0
     },
     "hero": {
-     "text": "EDWARD XU",
-     "words": 2,
-     "chars": 9,
-     "lines": 1,
-     "size": 332.7,
-     "vw": 23.1,
+     "text": "HELLO! I'M EDWARD.",
+     "words": 3,
+     "chars": 18,
+     "lines": 2,
+     "size": 88,
+     "vw": 6.1,
      "font": "Anton",
      "weight": 400,
-     "tracking": -0.01,
-     "leading": 0.82,
+     "tracking": 0,
+     "leading": 0.9,
      "upper": true,
      "italic": false,
      "mono": false,
      "align": "left",
-     "position": "center",
-     "widthRatio": 0.97,
-     "top": 69,
-     "tag": "p",
+     "position": "right",
+     "widthRatio": 0.41,
+     "top": 136,
+     "tag": "h1",
      "kind": "heading"
     },
     "h1": {
@@ -84,21 +83,21 @@
       "words": 2,
       "chars": 9,
       "lines": 1,
-      "size": 332.7,
-      "vw": 23.1,
+      "size": 48,
+      "vw": 3.3,
       "font": "Anton",
       "weight": 400,
-      "tracking": -0.01,
-      "leading": 0.82,
+      "tracking": 0.01,
+      "leading": 1,
       "upper": true,
       "italic": false,
       "mono": false,
       "align": "left",
-      "position": "center",
-      "widthRatio": 0.97,
-      "top": 69,
+      "position": "left",
+      "widthRatio": 0.14,
+      "top": 24,
       "tag": "p",
-      "kind": "heading"
+      "kind": "statement"
      },
      {
       "text": "HELLO! I'M EDWARD.",
@@ -117,51 +116,30 @@
       "align": "left",
       "position": "right",
       "widthRatio": 0.41,
-      "top": 405,
+      "top": 136,
       "tag": "h1",
       "kind": "heading"
-     },
-     {
-      "text": "EDWARD XU",
-      "words": 2,
-      "chars": 9,
-      "lines": 1,
-      "size": 332.7,
-      "vw": 23.1,
-      "font": "Anton",
-      "weight": 400,
-      "tracking": -0.01,
-      "leading": 0.8,
-      "upper": true,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "center",
-      "widthRatio": 0.97,
-      "top": 2531,
-      "tag": "p",
-      "kind": "statement"
      }
     ],
     "headingSummary": {
-     "count": 3,
+     "count": 2,
      "maxLines": 2,
      "over2Lines": 0,
      "statements": 1,
      "centered": 0,
-     "medianWords": 3,
+     "medianWords": 2,
      "mixedFontHeadings": 0
     },
     "type": {
      "families": [
       {
        "family": "Work Sans",
-       "share": 0.95,
+       "share": 0.96,
        "mono": false
       },
       {
        "family": "Anton",
-       "share": 0.05,
+       "share": 0.04,
        "mono": false
       }
      ],
@@ -170,8 +148,8 @@
       15,
       19,
       26,
-      88,
-      333
+      48,
+      88
      ],
      "sizeCount": 5,
      "notLoaded": [],
@@ -185,466 +163,10 @@
      },
      "measureChars": 62,
      "max": {
-      "size": 332.7,
-      "vw": 23.1,
-      "font": "Anton",
-      "text": "Edward Xu"
-     },
-     "monoShare": 0,
-     "monoProseShare": 0,
-     "monoFamilies": [],
-     "monoSamples": [],
-     "microLabels": 0,
-     "microLabelShare": 0,
-     "microSamples": [],
-     "upperShare": 0.05,
-     "centerShare": 0,
-     "smallText": 0
-    },
-    "eyebrows": [],
-    "numbered": [],
-    "color": {
-     "bodyBg": "#ffffff",
-     "bodyBgHsl": {
-      "h": 0,
-      "s": 0,
-      "l": 1
-     },
-     "dark": false,
-     "sectionBgs": [
-      {
-       "color": "#05070a",
-       "top": 2413,
-       "hsl": {
-        "h": 216,
-        "s": 0.33,
-        "l": 0.03
-       }
-      }
-     ],
-     "textColors": [
-      {
-       "color": "#1f2b4d",
-       "share": 0.8
-      },
-      {
-       "color": "#5e657a",
-       "share": 0.16
-      },
-      {
-       "color": "#ffffff",
-       "share": 0.04
-      }
-     ],
-     "button": null,
-     "lowContrast": []
-    },
-    "buttons": {
-     "count": 0,
-     "inHero": 0,
-     "withShadow": 0,
-     "withGradient": 0,
-     "mono": 0,
-     "upper": 0,
-     "heroLabels": []
-    },
-    "surfaces": {
-     "shadowStatic": 0,
-     "shadowOverlay": 0,
-     "shadowSamples": [],
-     "gradients": 0,
-     "scrims": 0,
-     "gradientSamples": [],
-     "gradientText": 0,
-     "hairlines": 0,
-     "hairlineSamples": [],
-     "outlinedBoxes": 0,
-     "dashed": 0,
-     "blurred": 0,
-     "roundedBoxes": 0,
-     "boxRadius": 0,
-     "squareMedia": 0,
-     "roundedMedia": 0,
-     "mediaRadius": 0,
-     "textShadow": 0,
-     "cardRows": []
-    },
-    "heroMedia": [],
-    "nav": {
-     "links": 4,
-     "fixed": false,
-     "height": 341,
-     "floatingPill": false,
-     "blur": false
-    },
-    "fontsLoaded": [
-     "anton",
-     "work sans"
-    ]
-   },
-   "layout": {
-    "viewport": {
-     "w": 1440,
-     "h": 900
-    },
-    "pageH": 2817,
-    "margins": {
-     "left": 24,
-     "right": 32
-    },
-    "sections": [
-     {
-      "sel": "header.site-header",
-      "tag": "header",
-      "top": 0,
-      "height": 341,
-      "words": 3,
-      "media": 0,
-      "middle": 32,
-      "heading": null,
-      "left": 1211,
-      "right": 24,
-      "textLeft": 1211,
-      "textRight": 24,
-      "fullBleed": false,
-      "footer": false,
-      "hero": true,
-      "continues": false,
-      "pinned": false
-     },
-     {
-      "sel": "section.about-intro",
-      "tag": "section",
-      "top": 405,
-      "height": 453,
-      "words": 68,
-      "media": 0,
-      "middle": 0,
-      "heading": {
-       "text": "I'm Edward.",
-       "size": 88,
-       "tag": "h1"
-      },
-      "left": 608,
-      "right": 245,
-      "textLeft": 608,
-      "textRight": 245,
-      "fullBleed": false,
-      "footer": false,
-      "hero": true,
-      "continues": true,
-      "pinned": false
-     },
-     {
-      "sel": "section.about-list.is-in",
-      "tag": "section",
-      "top": 1107,
-      "height": 618,
-      "words": 78,
-      "media": 0,
-      "middle": 53,
-      "heading": {
-       "text": "Research & Analysis",
-       "size": 19,
-       "tag": "h3"
-      },
-      "left": 608,
-      "right": 254,
-      "textLeft": 608,
-      "textRight": 254,
-      "fullBleed": false,
-      "footer": false,
-      "hero": false,
-      "continues": true,
-      "pinned": false
-     },
-     {
-      "sel": "section.about-list.is-in",
-      "tag": "section",
-      "top": 1821,
-      "height": 227,
-      "words": 23,
-      "media": 0,
-      "middle": 64,
-      "heading": null,
-      "left": 608,
-      "right": 245,
-      "textLeft": 608,
-      "textRight": 245,
-      "fullBleed": false,
-      "footer": false,
-      "hero": false,
-      "continues": true,
-      "pinned": false
-     },
-     {
-      "sel": "section#contact.about-list.is-in",
-      "tag": "section",
-      "top": 2143,
-      "height": 142,
-      "words": 6,
-      "media": 0,
-      "middle": 73,
-      "heading": null,
-      "left": 608,
-      "right": 421,
-      "textLeft": 608,
-      "textRight": 421,
-      "fullBleed": false,
-      "footer": false,
-      "hero": false,
-      "continues": true,
-      "pinned": false
-     },
-     {
-      "sel": "footer.site-footer",
-      "tag": "footer",
-      "top": 2413,
-      "height": 405,
-      "words": 6,
-      "media": 0,
-      "middle": 0,
-      "heading": {
-       "text": "Edward Xu",
-       "size": 333,
-       "tag": "p"
-      },
-      "left": 24,
-      "right": 32,
-      "textLeft": 24,
-      "textRight": 32,
-      "fullBleed": false,
-      "footer": true,
-      "hero": false,
-      "continues": false,
-      "pinned": false
-     }
-    ],
-    "gaps": [],
-    "h1s": [
-     {
-      "text": "HELLO! I'M EDWARD.",
       "size": 88,
-      "top": 405,
-      "firstScreen": true
-     }
-    ],
-    "edgeText": [],
-    "edges": [
-     {
-      "x": 744,
-      "n": 9
-     },
-     {
-      "x": 244,
-      "n": 4
-     },
-     {
-      "x": 608,
-      "n": 4
-     }
-    ],
-    "leftBlocks": 17,
-    "bodySize": 19,
-    "stage": false,
-    "explains": true,
-    "slivers": [],
-    "voidShare": 0.19,
-    "voidBox": {
-     "x": 0,
-     "y": 480,
-     "w": 600,
-     "h": 420
-    }
-   },
-   "app": null,
-   "consoleErrors": []
-  },
-  {
-   "width": 768,
-   "height": 1024,
-   "load": "load",
-   "screens": 3,
-   "filled": [
-    0.54,
-    0.27,
-    0.29
-   ],
-   "motion": {
-    "elements": 0,
-    "css": 0,
-    "transitions": 0,
-    "scripted": 0,
-    "videos": 0,
-    "playingVideos": 0
-   },
-   "metrics": {
-    "viewport": {
-     "w": 768,
-     "h": 1024
-    },
-    "page": {
-     "height": 2496,
-     "screens": 2.4,
-     "words": 193,
-     "img": 0,
-     "video": 0,
-     "canvas": 0,
-     "svg": 0,
-     "sections": 6,
-     "horizontalOverflow": 0,
-     "overflowCulprits": [],
-     "uiFragments": 0,
-     "uiAbuse": false,
-     "realPictures": 0,
-     "videoCount": 0,
-     "uiPictures": 0,
-     "pictureSamples": [],
-     "blendText": 0,
-     "sideScrollers": 0,
-     "brokenImages": [],
-     "emoji": [],
-     "videosNoPoster": 0
-    },
-    "hero": {
-     "text": "EDWARD XU",
-     "words": 2,
-     "chars": 9,
-     "lines": 1,
-     "size": 172.1,
-     "vw": 22.4,
-     "font": "Anton",
-     "weight": 400,
-     "tracking": -0.01,
-     "leading": 0.82,
-     "upper": true,
-     "italic": false,
-     "mono": false,
-     "align": "left",
-     "position": "center",
-     "widthRatio": 0.94,
-     "top": 68,
-     "tag": "p",
-     "kind": "heading"
-    },
-    "h1": {
-     "text": "HELLO! I'M EDWARD.",
-     "words": 3,
-     "lines": 2,
-     "size": 57.6,
-     "font": "Anton"
-    },
-    "headings": [
-     {
-      "text": "EDWARD XU",
-      "words": 2,
-      "chars": 9,
-      "lines": 1,
-      "size": 172.1,
-      "vw": 22.4,
+      "vw": 6.1,
       "font": "Anton",
-      "weight": 400,
-      "tracking": -0.01,
-      "leading": 0.82,
-      "upper": true,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "center",
-      "widthRatio": 0.94,
-      "top": 68,
-      "tag": "p",
-      "kind": "heading"
-     },
-     {
-      "text": "HELLO! I'M EDWARD.",
-      "words": 3,
-      "chars": 18,
-      "lines": 2,
-      "size": 57.6,
-      "vw": 7.5,
-      "font": "Anton",
-      "weight": 400,
-      "tracking": 0,
-      "leading": 0.9,
-      "upper": true,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "right",
-      "widthRatio": 0.6,
-      "top": 273,
-      "tag": "h1",
-      "kind": "heading"
-     },
-     {
-      "text": "EDWARD XU",
-      "words": 2,
-      "chars": 9,
-      "lines": 1,
-      "size": 172.1,
-      "vw": 22.4,
-      "font": "Anton",
-      "weight": 400,
-      "tracking": -0.01,
-      "leading": 0.8,
-      "upper": true,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "center",
-      "widthRatio": 0.94,
-      "top": 2338,
-      "tag": "p",
-      "kind": "statement"
-     }
-    ],
-    "headingSummary": {
-     "count": 3,
-     "maxLines": 2,
-     "over2Lines": 0,
-     "statements": 1,
-     "centered": 0,
-     "medianWords": 3,
-     "mixedFontHeadings": 0
-    },
-    "type": {
-     "families": [
-      {
-       "family": "Work Sans",
-       "share": 0.95,
-       "mono": false
-      },
-      {
-       "family": "Anton",
-       "share": 0.05,
-       "mono": false
-      }
-     ],
-     "familyCount": 2,
-     "sizes": [
-      14,
-      18,
-      23,
-      58,
-      172
-     ],
-     "sizeCount": 5,
-     "notLoaded": [],
-     "body": {
-      "font": "Work Sans",
-      "size": 17.9,
-      "leading": 1.5,
-      "weight": 400,
-      "tracking": 0,
-      "contrast": 13.9
-     },
-     "measureChars": 51,
-     "max": {
-      "size": 172.1,
-      "vw": 22.4,
-      "font": "Anton",
-      "text": "Edward Xu"
+      "text": "Hello!I'm Edward."
      },
      "monoShare": 0,
      "monoProseShare": 0,
@@ -653,7 +175,7 @@
      "microLabels": 0,
      "microLabelShare": 0,
      "microSamples": [],
-     "upperShare": 0.05,
+     "upperShare": 0.04,
      "centerShare": 0,
      "smallText": 0
     },
@@ -719,7 +241,390 @@
     "nav": {
      "links": 4,
      "fixed": false,
-     "height": 209,
+     "height": 72,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "anton",
+     "work sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 2246,
+    "margins": {
+     "left": 24,
+     "right": 114
+    },
+    "sections": [
+     {
+      "sel": "section.about-intro",
+      "tag": "section",
+      "top": 136,
+      "height": 453,
+      "words": 68,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "I'm Edward.",
+       "size": 88,
+       "tag": "h1"
+      },
+      "left": 608,
+      "right": 245,
+      "textLeft": 608,
+      "textRight": 245,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.about-list.is-in",
+      "tag": "section",
+      "top": 838,
+      "height": 618,
+      "words": 78,
+      "media": 0,
+      "middle": 53,
+      "heading": {
+       "text": "Research & Analysis",
+       "size": 19,
+       "tag": "h3"
+      },
+      "left": 608,
+      "right": 254,
+      "textLeft": 608,
+      "textRight": 254,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.about-list.is-in",
+      "tag": "section",
+      "top": 1551,
+      "height": 227,
+      "words": 23,
+      "media": 0,
+      "middle": 64,
+      "heading": null,
+      "left": 608,
+      "right": 245,
+      "textLeft": 608,
+      "textRight": 245,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.about-list.is-in",
+      "tag": "section",
+      "top": 1874,
+      "height": 142,
+      "words": 6,
+      "media": 0,
+      "middle": 73,
+      "heading": null,
+      "left": 608,
+      "right": 421,
+      "textLeft": 608,
+      "textRight": 421,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "HELLO! I'M EDWARD.",
+      "size": 88,
+      "top": 136,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 744,
+      "n": 9
+     },
+     {
+      "x": 244,
+      "n": 4
+     },
+     {
+      "x": 608,
+      "n": 4
+     }
+    ],
+    "leftBlocks": 17,
+    "bodySize": 19,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.25,
+    "voidBox": {
+     "x": 0,
+     "y": 120,
+     "w": 600,
+     "h": 540
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 3,
+   "filled": [
+    0.33,
+    0.24,
+    0.26
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 2175,
+     "screens": 2.1,
+     "words": 192,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "HELLO! I'M EDWARD.",
+     "words": 3,
+     "chars": 18,
+     "lines": 2,
+     "size": 57.6,
+     "vw": 7.5,
+     "font": "Anton",
+     "weight": 400,
+     "tracking": 0,
+     "leading": 0.9,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "right",
+     "widthRatio": 0.6,
+     "top": 126,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "HELLO! I'M EDWARD.",
+     "words": 3,
+     "lines": 2,
+     "size": 57.6,
+     "font": "Anton"
+    },
+    "headings": [
+     {
+      "text": "EDWARD XU",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 37.8,
+      "vw": 4.9,
+      "font": "Anton",
+      "weight": 400,
+      "tracking": 0.01,
+      "leading": 1,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.21,
+      "top": 24,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "HELLO! I'M EDWARD.",
+      "words": 3,
+      "chars": 18,
+      "lines": 2,
+      "size": 57.6,
+      "vw": 7.5,
+      "font": "Anton",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.6,
+      "top": 126,
+      "tag": "h1",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 2,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 2,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Work Sans",
+       "share": 0.96,
+       "mono": false
+      },
+      {
+       "family": "Anton",
+       "share": 0.04,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      18,
+      23,
+      38,
+      58
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "Work Sans",
+      "size": 17.9,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 13.9
+     },
+     "measureChars": 51,
+     "max": {
+      "size": 57.6,
+      "vw": 7.5,
+      "font": "Anton",
+      "text": "Hello!I'm Edward."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.04,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [],
+     "textColors": [
+      {
+       "color": "#1f2b4d",
+       "share": 0.8
+      },
+      {
+       "color": "#5e657a",
+       "share": 0.16
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.04
+      }
+     ],
+     "button": null,
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 0,
+     "inHero": 0,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 4,
+     "fixed": false,
+     "height": 62,
      "floatingPill": false,
      "blur": false
     },
@@ -733,35 +638,16 @@
      "w": 768,
      "h": 1024
     },
-    "pageH": 2496,
+    "pageH": 2175,
     "margins": {
      "left": 24,
      "right": 27
     },
     "sections": [
      {
-      "sel": "header.site-header",
-      "tag": "header",
-      "top": 0,
-      "height": 209,
-      "words": 3,
-      "media": 0,
-      "middle": 32,
-      "heading": null,
-      "left": 545,
-      "right": 24,
-      "textLeft": 545,
-      "textRight": 24,
-      "fullBleed": false,
-      "footer": false,
-      "hero": true,
-      "continues": false,
-      "pinned": false
-     },
-     {
       "sel": "section.about-intro",
       "tag": "section",
-      "top": 273,
+      "top": 126,
       "height": 383,
       "words": 68,
       "media": 0,
@@ -778,13 +664,13 @@
       "fullBleed": false,
       "footer": false,
       "hero": true,
-      "continues": true,
+      "continues": false,
       "pinned": false
      },
      {
       "sel": "section.about-list.is-in",
       "tag": "section",
-      "top": 901,
+      "top": 754,
       "height": 591,
       "words": 78,
       "media": 0,
@@ -801,13 +687,13 @@
       "fullBleed": false,
       "footer": false,
       "hero": false,
-      "continues": true,
+      "continues": false,
       "pinned": false
      },
      {
       "sel": "section.about-list.is-in",
       "tag": "section",
-      "top": 1588,
+      "top": 1441,
       "height": 272,
       "words": 23,
       "media": 0,
@@ -820,13 +706,13 @@
       "fullBleed": false,
       "footer": false,
       "hero": false,
-      "continues": true,
+      "continues": false,
       "pinned": false
      },
      {
       "sel": "section#contact.about-list.is-in",
       "tag": "section",
-      "top": 1956,
+      "top": 1809,
       "height": 137,
       "words": 6,
       "media": 0,
@@ -836,29 +722,6 @@
       "right": 89,
       "textLeft": 284,
       "textRight": 89,
-      "fullBleed": false,
-      "footer": false,
-      "hero": false,
-      "continues": true,
-      "pinned": false
-     },
-     {
-      "sel": "footer.site-footer",
-      "tag": "footer",
-      "top": 2221,
-      "height": 275,
-      "words": 6,
-      "media": 0,
-      "middle": 0,
-      "heading": {
-       "text": "Edward Xu",
-       "size": 172,
-       "tag": "p"
-      },
-      "left": 24,
-      "right": 28,
-      "textLeft": 24,
-      "textRight": 28,
       "fullBleed": false,
       "footer": true,
       "hero": false,
@@ -871,7 +734,7 @@
      {
       "text": "HELLO! I'M EDWARD.",
       "size": 58,
-      "top": 273,
+      "top": 126,
       "firstScreen": true
      }
     ],
@@ -907,10 +770,10 @@
    "load": "load",
    "screens": 4,
    "filled": [
-    0.49,
+    0.48,
     0.32,
-    0.19,
-    0.44
+    0.31,
+    0.25
    ],
    "motion": {
     "elements": 0,
@@ -926,9 +789,9 @@
      "h": 844
     },
     "page": {
-     "height": 2803,
-     "screens": 3.3,
-     "words": 193,
+     "height": 2621,
+     "screens": 3.1,
+     "words": 192,
      "img": 0,
      "video": 0,
      "canvas": 0,
@@ -949,24 +812,24 @@
      "videosNoPoster": 0
     },
     "hero": {
-     "text": "EDWARD XU",
-     "words": 2,
-     "chars": 9,
-     "lines": 1,
-     "size": 85.6,
-     "vw": 21.9,
+     "text": "HELLO! I'M EDWARD.",
+     "words": 3,
+     "chars": 18,
+     "lines": 2,
+     "size": 40,
+     "vw": 10.3,
      "font": "Anton",
      "weight": 400,
-     "tracking": -0.01,
-     "leading": 0.82,
+     "tracking": 0,
+     "leading": 0.9,
      "upper": true,
      "italic": false,
      "mono": false,
      "align": "left",
      "position": "center",
      "widthRatio": 0.92,
-     "top": 67,
-     "tag": "p",
+     "top": 99,
+     "tag": "h1",
      "kind": "heading"
     },
     "h1": {
@@ -982,21 +845,21 @@
       "words": 2,
       "chars": 9,
       "lines": 1,
-      "size": 85.6,
-      "vw": 21.9,
+      "size": 32,
+      "vw": 8.2,
       "font": "Anton",
       "weight": 400,
-      "tracking": -0.01,
-      "leading": 0.82,
+      "tracking": 0.01,
+      "leading": 1,
       "upper": true,
       "italic": false,
       "mono": false,
       "align": "left",
-      "position": "center",
-      "widthRatio": 0.92,
-      "top": 67,
+      "position": "left",
+      "widthRatio": 0.36,
+      "top": 26,
       "tag": "p",
-      "kind": "heading"
+      "kind": "statement"
      },
      {
       "text": "HELLO! I'M EDWARD.",
@@ -1015,51 +878,30 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 177,
+      "top": 99,
       "tag": "h1",
       "kind": "heading"
-     },
-     {
-      "text": "EDWARD XU",
-      "words": 2,
-      "chars": 9,
-      "lines": 1,
-      "size": 85.6,
-      "vw": 21.9,
-      "font": "Anton",
-      "weight": 400,
-      "tracking": -0.01,
-      "leading": 0.8,
-      "upper": true,
-      "italic": false,
-      "mono": false,
-      "align": "left",
-      "position": "center",
-      "widthRatio": 0.92,
-      "top": 2715,
-      "tag": "p",
-      "kind": "statement"
      }
     ],
     "headingSummary": {
-     "count": 3,
+     "count": 2,
      "maxLines": 2,
      "over2Lines": 0,
      "statements": 1,
      "centered": 0,
-     "medianWords": 3,
+     "medianWords": 2,
      "mixedFontHeadings": 0
     },
     "type": {
      "families": [
       {
        "family": "Work Sans",
-       "share": 0.95,
+       "share": 0.96,
        "mono": false
       },
       {
        "family": "Anton",
-       "share": 0.05,
+       "share": 0.04,
        "mono": false
       }
      ],
@@ -1068,8 +910,8 @@
       14,
       17,
       20,
-      40,
-      86
+      32,
+      40
      ],
      "sizeCount": 5,
      "notLoaded": [],
@@ -1083,10 +925,10 @@
      },
      "measureChars": 42,
      "max": {
-      "size": 85.6,
-      "vw": 21.9,
+      "size": 40,
+      "vw": 10.3,
       "font": "Anton",
-      "text": "Edward Xu"
+      "text": "Hello!I'm Edward."
      },
      "monoShare": 0,
      "monoProseShare": 0,
@@ -1095,7 +937,7 @@
      "microLabels": 0,
      "microLabelShare": 0,
      "microSamples": [],
-     "upperShare": 0.05,
+     "upperShare": 0.04,
      "centerShare": 0,
      "smallText": 0
     },
@@ -1161,7 +1003,7 @@
     "nav": {
      "links": 4,
      "fixed": false,
-     "height": 137,
+     "height": 59,
      "floatingPill": false,
      "blur": false
     },
@@ -1175,35 +1017,16 @@
      "w": 390,
      "h": 844
     },
-    "pageH": 2803,
+    "pageH": 2621,
     "margins": {
      "left": 16,
      "right": 16
     },
     "sections": [
      {
-      "sel": "header.site-header",
-      "tag": "header",
-      "top": 0,
-      "height": 137,
-      "words": 3,
-      "media": 0,
-      "middle": 24,
-      "heading": null,
-      "left": 194,
-      "right": 16,
-      "textLeft": 194,
-      "textRight": 16,
-      "fullBleed": false,
-      "footer": false,
-      "hero": true,
-      "continues": false,
-      "pinned": false
-     },
-     {
       "sel": "section.about-intro",
       "tag": "section",
-      "top": 177,
+      "top": 99,
       "height": 442,
       "words": 68,
       "media": 0,
@@ -1226,7 +1049,7 @@
      {
       "sel": "section.about-list.is-in",
       "tag": "section",
-      "top": 691,
+      "top": 613,
       "height": 121,
       "words": 10,
       "media": 0,
@@ -1249,7 +1072,7 @@
      {
       "sel": "section.about-list.is-in",
       "tag": "section",
-      "top": 884,
+      "top": 806,
       "height": 849,
       "words": 78,
       "media": 0,
@@ -1272,7 +1095,7 @@
      {
       "sel": "section.about-list.is-in",
       "tag": "section",
-      "top": 1805,
+      "top": 1727,
       "height": 379,
       "words": 23,
       "media": 0,
@@ -1291,7 +1114,7 @@
      {
       "sel": "section#contact.about-list.is-in",
       "tag": "section",
-      "top": 2256,
+      "top": 2178,
       "height": 225,
       "words": 6,
       "media": 0,
@@ -1310,20 +1133,16 @@
      {
       "sel": "footer.site-footer",
       "tag": "footer",
-      "top": 2569,
-      "height": 234,
-      "words": 6,
+      "top": 2491,
+      "height": 130,
+      "words": 5,
       "media": 0,
-      "middle": 0,
-      "heading": {
-       "text": "Edward Xu",
-       "size": 86,
-       "tag": "p"
-      },
+      "middle": 32,
+      "heading": null,
       "left": 16,
-      "right": 18,
+      "right": 78,
       "textLeft": 16,
-      "textRight": 18,
+      "textRight": 78,
       "fullBleed": false,
       "footer": true,
       "hero": false,
@@ -1336,7 +1155,7 @@
      {
       "text": "HELLO! I'M EDWARD.",
       "size": 40,
-      "top": 177,
+      "top": 99,
       "firstScreen": true
      }
     ],
@@ -1388,6 +1207,13 @@
    "width": 1440,
    "message": "No video anywhere on the page.",
    "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "FAIL",
+   "id": "off-centre",
+   "width": 1440,
+   "message": "The page sits off-centre: its content comes to 24px from the left edge but only to 114px from the right, at 1440px.",
+   "fix": "Give the page one pair of equal margins. Check the wrapper for a max-width without margin-inline: auto, a grid with an empty last column, or padding on one side only. If one side is meant to hold air, it must still be closed by something that reaches the margin (a picture, the navigation's last item, a figure)."
   },
   {
    "level": "FAIL",
