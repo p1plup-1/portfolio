@@ -1,0 +1,1271 @@
+{
+ "url": "about.html",
+ "at": "2026-11-11T23:11:36.623Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 3,
+   "filled": [
+    0.49,
+    0.11,
+    0.2
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 2192,
+     "screens": 2.4,
+     "words": 189,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Hello! I'm Edward.",
+     "words": 3,
+     "chars": 18,
+     "lines": 2,
+     "size": 18,
+     "vw": 1.3,
+     "font": "Hanken Grotesk",
+     "weight": 700,
+     "tracking": 0,
+     "leading": 1.3,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "right",
+     "widthRatio": 0.39,
+     "top": 270,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Hello! I'm Edward.",
+     "words": 3,
+     "lines": 2,
+     "size": 18,
+     "font": "Hanken Grotesk"
+    },
+    "headings": [],
+    "headingSummary": {
+     "count": 0,
+     "maxLines": 0,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Hanken Grotesk",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      15,
+      18,
+      23
+     ],
+     "sizeCount": 3,
+     "notLoaded": [],
+     "body": {
+      "font": "Hanken Grotesk",
+      "size": 15,
+      "leading": 1.45,
+      "weight": 300,
+      "tracking": 0,
+      "contrast": 14.4
+     },
+     "measureChars": 67,
+     "max": {
+      "size": 23,
+      "vw": 1.6,
+      "font": "Hanken Grotesk",
+      "text": "Edward Xu"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [],
+     "textColors": [
+      {
+       "color": "#292a2c",
+       "share": 0.62
+      },
+      {
+       "color": "#020202",
+       "share": 0.19
+      },
+      {
+       "color": "#727272",
+       "share": 0.19
+      }
+     ],
+     "button": null,
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 0,
+     "inHero": 0,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 4,
+     "fixed": false,
+     "height": 180,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "hanken grotesk"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 2192,
+    "margins": {
+     "left": 400,
+     "right": 320
+    },
+    "sections": [
+     {
+      "sel": "header.site-header",
+      "tag": "header",
+      "top": 0,
+      "height": 180,
+      "words": 5,
+      "media": 0,
+      "middle": 17,
+      "heading": {
+       "text": "Edward Xu",
+       "size": 23,
+       "tag": "a"
+      },
+      "left": 590,
+      "right": 590,
+      "textLeft": 590,
+      "textRight": 590,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.about-intro",
+      "tag": "section",
+      "top": 270,
+      "height": 276,
+      "words": 69,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Hello!",
+       "size": 18,
+       "tag": "h1"
+      },
+      "left": 625,
+      "right": 317,
+      "textLeft": 625,
+      "textRight": 317,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.about-photos",
+      "tag": "section",
+      "top": 562,
+      "height": 202,
+      "words": 0,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 2071,
+      "height": 121,
+      "words": 2,
+      "media": 0,
+      "middle": 40,
+      "heading": null,
+      "left": 573,
+      "right": 573,
+      "textLeft": 573,
+      "textRight": 573,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 524,
+      "height": 308
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Hello! I'm Edward.",
+      "size": 18,
+      "top": 270,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 526,
+      "n": 9
+     },
+     {
+      "x": 400,
+      "n": 4
+     },
+     {
+      "x": 625,
+      "n": 4
+     }
+    ],
+    "leftBlocks": 17,
+    "bodySize": 15,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0.28,
+    "voidBox": {
+     "x": 0,
+     "y": 180,
+     "w": 600,
+     "h": 600
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 3,
+   "filled": [
+    0.53,
+    0.19,
+    0.28
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 2120,
+     "screens": 2.1,
+     "words": 189,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Hello! I'm Edward.",
+     "words": 3,
+     "chars": 18,
+     "lines": 2,
+     "size": 18,
+     "vw": 2.3,
+     "font": "Hanken Grotesk",
+     "weight": 700,
+     "tracking": 0,
+     "leading": 1.3,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "right",
+     "widthRatio": 0.57,
+     "top": 270,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Hello! I'm Edward.",
+     "words": 3,
+     "lines": 2,
+     "size": 18,
+     "font": "Hanken Grotesk"
+    },
+    "headings": [],
+    "headingSummary": {
+     "count": 0,
+     "maxLines": 0,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Hanken Grotesk",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      15,
+      18,
+      23
+     ],
+     "sizeCount": 3,
+     "notLoaded": [],
+     "body": {
+      "font": "Hanken Grotesk",
+      "size": 15,
+      "leading": 1.45,
+      "weight": 300,
+      "tracking": 0,
+      "contrast": 14.4
+     },
+     "measureChars": 58,
+     "max": {
+      "size": 23,
+      "vw": 3,
+      "font": "Hanken Grotesk",
+      "text": "Edward Xu"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [],
+     "textColors": [
+      {
+       "color": "#292a2c",
+       "share": 0.62
+      },
+      {
+       "color": "#020202",
+       "share": 0.19
+      },
+      {
+       "color": "#727272",
+       "share": 0.19
+      }
+     ],
+     "button": null,
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 0,
+     "inHero": 0,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 4,
+     "fixed": false,
+     "height": 180,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "hanken grotesk"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 2120,
+    "margins": {
+     "left": 64,
+     "right": 62
+    },
+    "sections": [
+     {
+      "sel": "header.site-header",
+      "tag": "header",
+      "top": 0,
+      "height": 180,
+      "words": 5,
+      "media": 0,
+      "middle": 17,
+      "heading": {
+       "text": "Edward Xu",
+       "size": 23,
+       "tag": "a"
+      },
+      "left": 254,
+      "right": 254,
+      "textLeft": 254,
+      "textRight": 254,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.about-intro",
+      "tag": "section",
+      "top": 270,
+      "height": 255,
+      "words": 69,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Hello!",
+       "size": 18,
+       "tag": "h1"
+      },
+      "left": 295,
+      "right": 51,
+      "textLeft": 295,
+      "textRight": 51,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.about-photos",
+      "tag": "section",
+      "top": 541,
+      "height": 151,
+      "words": 0,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.about-list",
+      "tag": "section",
+      "top": 928,
+      "height": 432,
+      "words": 79,
+      "media": 0,
+      "middle": 50,
+      "heading": {
+       "text": "Skills",
+       "size": 18,
+       "tag": "h2"
+      },
+      "left": 64,
+      "right": 89,
+      "textLeft": 64,
+      "textRight": 89,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.about-list",
+      "tag": "section",
+      "top": 1430,
+      "height": 212,
+      "words": 24,
+      "media": 0,
+      "middle": 59,
+      "heading": {
+       "text": "Tools",
+       "size": 18,
+       "tag": "h2"
+      },
+      "left": 64,
+      "right": 234,
+      "textLeft": 64,
+      "textRight": 234,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.about-list",
+      "tag": "section",
+      "top": 1713,
+      "height": 166,
+      "words": 7,
+      "media": 0,
+      "middle": 60,
+      "heading": {
+       "text": "Contact",
+       "size": 18,
+       "tag": "h2"
+      },
+      "left": 64,
+      "right": 379,
+      "textLeft": 64,
+      "textRight": 379,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 1999,
+      "height": 121,
+      "words": 2,
+      "media": 0,
+      "middle": 40,
+      "heading": null,
+      "left": 237,
+      "right": 237,
+      "textLeft": 237,
+      "textRight": 237,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Hello! I'm Edward.",
+      "size": 18,
+      "top": 270,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 190,
+      "n": 9
+     },
+     {
+      "x": 64,
+      "n": 4
+     },
+     {
+      "x": 295,
+      "n": 4
+     }
+    ],
+    "leftBlocks": 17,
+    "bodySize": 15,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 4,
+   "filled": [
+    0.71,
+    0.74,
+    0.38,
+    0.39
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 3243,
+     "screens": 3.8,
+     "words": 189,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Hello! I'm Edward.",
+     "words": 3,
+     "chars": 18,
+     "lines": 2,
+     "size": 18,
+     "vw": 4.6,
+     "font": "Hanken Grotesk",
+     "weight": 700,
+     "tracking": 0,
+     "leading": 1.3,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 508,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Hello! I'm Edward.",
+     "words": 3,
+     "lines": 2,
+     "size": 18,
+     "font": "Hanken Grotesk"
+    },
+    "headings": [],
+    "headingSummary": {
+     "count": 0,
+     "maxLines": 0,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": null,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Hanken Grotesk",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      15,
+      18,
+      20
+     ],
+     "sizeCount": 3,
+     "notLoaded": [],
+     "body": {
+      "font": "Hanken Grotesk",
+      "size": 15,
+      "leading": 1.45,
+      "weight": 300,
+      "tracking": 0,
+      "contrast": 14.4
+     },
+     "measureChars": 47,
+     "max": {
+      "size": 20,
+      "vw": 5.1,
+      "font": "Hanken Grotesk",
+      "text": "Edward Xu"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.01,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [],
+     "textColors": [
+      {
+       "color": "#292a2c",
+       "share": 0.62
+      },
+      {
+       "color": "#020202",
+       "share": 0.19
+      },
+      {
+       "color": "#727272",
+       "share": 0.19
+      }
+     ],
+     "button": null,
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 0,
+     "inHero": 0,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 4,
+     "fixed": false,
+     "height": 150,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "hanken grotesk"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 3243,
+    "margins": {
+     "left": 20,
+     "right": 27
+    },
+    "sections": [
+     {
+      "sel": "header.site-header",
+      "tag": "header",
+      "top": 0,
+      "height": 150,
+      "words": 5,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 91,
+      "right": 91,
+      "textLeft": 91,
+      "textRight": 91,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": false,
+      "pinned": false
+     },
+     {
+      "sel": "section.about-intro",
+      "tag": "section",
+      "top": 200,
+      "height": 585,
+      "words": 69,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Hello!",
+       "size": 18,
+       "tag": "h1"
+      },
+      "left": 20,
+      "right": 31,
+      "textLeft": 20,
+      "textRight": 31,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.about-photos",
+      "tag": "section",
+      "top": 801,
+      "height": 720,
+      "words": 0,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.about-list",
+      "tag": "section",
+      "top": 1757,
+      "height": 628,
+      "words": 79,
+      "media": 0,
+      "middle": 30,
+      "heading": {
+       "text": "Skills",
+       "size": 18,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 25,
+      "textLeft": 20,
+      "textRight": 25,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.about-list",
+      "tag": "section",
+      "top": 2455,
+      "height": 277,
+      "words": 24,
+      "media": 0,
+      "middle": 39,
+      "heading": {
+       "text": "Tools",
+       "size": 18,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 44,
+      "textLeft": 20,
+      "textRight": 44,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#contact.about-list",
+      "tag": "section",
+      "top": 2803,
+      "height": 166,
+      "words": 7,
+      "media": 0,
+      "middle": 40,
+      "heading": {
+       "text": "Contact",
+       "size": 18,
+       "tag": "h2"
+      },
+      "left": 20,
+      "right": 65,
+      "textLeft": 20,
+      "textRight": 65,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 3089,
+      "height": 154,
+      "words": 2,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 96,
+      "right": 96,
+      "textLeft": 96,
+      "textRight": 96,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 108,
+      "height": 400
+     },
+     {
+      "top": 784,
+      "height": 804
+     }
+    ],
+    "h1s": [
+     {
+      "text": "Hello! I'm Edward.",
+      "size": 18,
+      "top": 508,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 126,
+      "n": 9
+     },
+     {
+      "x": 20,
+      "n": 8
+     }
+    ],
+    "leftBlocks": 17,
+    "bodySize": 15,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "body-size",
+   "width": 1440,
+   "message": "Body text is 15px.",
+   "fix": "Body copy 16–20px.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "first-action",
+   "width": 1440,
+   "message": "No visible button in the first screen.",
+   "fix": "Give the one primary action a real button in the first screen (a filled or solid-bordered control, 44px or taller), not only a link in the navigation.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "few-pictures",
+   "width": 1440,
+   "message": "Only 0 picture(s) on the page (0 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.",
+   "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "FAIL",
+   "id": "focal-point",
+   "width": 1440,
+   "message": "The first screen has no dominant element: the largest type is 18px (1.3vw) and no single picture holds a third of the viewport.",
+   "fix": "Make one thing lead: the headline at display size, or one large picture. A grid of many small pictures is not one thing; in blind tests jurors marked a first screen without a headline down every time. On the strongest studied sites the largest type has a median of 8.4vw.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "font-not-dealt",
+   "width": 1440,
+   "message": "The sheet dealt Archivo and Archivo, but the page renders Hanken Grotesk.",
+   "fix": "Load the dealt face (the link on the sheet) and put it first in font-family. A build that falls back to a default face lands on the default look."
+  },
+  {
+   "level": "FAIL",
+   "id": "off-centre",
+   "width": 1440,
+   "message": "The page sits off-centre: its content comes to 400px from the left edge but only to 320px from the right, at 1440px.",
+   "fix": "Give the page one pair of equal margins. Check the wrapper for a max-width without margin-inline: auto, a grid with an empty last column, or padding on one side only. If one side is meant to hold air, it must still be closed by something that reaches the margin (a picture, the navigation's last item, a figure)."
+  },
+  {
+   "level": "WARN",
+   "id": "small-title",
+   "width": 1440,
+   "message": "The h1 is 18px (\"Hello! I'm Edward.\").",
+   "fix": "Set the title at display size, or make the large text of the first screen the h1.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "name-only-title",
+   "width": 1440,
+   "message": "The h1 is a bare name (\"Hello! I'm Edward.\") and nothing else on the first screen says what this is.",
+   "fix": "Keep the name if it leads, and give the line under it (18px or more) the plain words: what it is, for whom, where or when. In the study of 97 Sites of the Day, first screens that named nothing lost usability and content points.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "hero-void",
+   "width": 1440,
+   "message": "28% of the first screen is one empty block (600×600px at 0,180).",
+   "fix": "Place the void on purpose or fill it: move the picture, the film or one fact into it, grow the headline to meet it, or shrink the screen to its content. A void reads as placed only when something closes it on the far side and it is the screen's one rest."
+  },
+  {
+   "level": "FAIL",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Only 0 element(s) moved while the page loaded and scrolled.",
+   "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+  },
+  {
+   "level": "FAIL",
+   "id": "blank-gap",
+   "width": 390,
+   "message": "2 stretch(es) of the page hold nothing at all: 804px at 784px; 400px at 108px (the screen is 844px tall).",
+   "fix": "Close the gap: a section gap is 120–240px on desktop and 72–112px on a phone. Look for a min-height: 100vh on a short section, an empty grid row, a hidden element still holding its space, or a reveal that never fired. A deliberate rest is a placed picture or colour field, not nothing."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\edwar\\OneDrive\\Documents\\portfolio\\.taste-skill\\before\\about\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\edwar\\OneDrive\\Documents\\portfolio\\.taste-skill\\before\\about\\desktop-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\edwar\\OneDrive\\Documents\\portfolio\\.taste-skill\\before\\about\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\edwar\\OneDrive\\Documents\\portfolio\\.taste-skill\\before\\about\\tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\edwar\\OneDrive\\Documents\\portfolio\\.taste-skill\\before\\about\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\edwar\\OneDrive\\Documents\\portfolio\\.taste-skill\\before\\about\\mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

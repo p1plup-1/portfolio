@@ -1,0 +1,1606 @@
+{
+ "url": "modular-power-grid.html",
+ "at": "2026-11-11T23:26:35.592Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    0.76,
+    0.46,
+    0.53,
+    0.58,
+    0.58,
+    0.62
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 5434,
+     "screens": 6,
+     "words": 24,
+     "img": 25,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 25,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "modular-power-grid.jpg",
+      "01.png",
+      "02.png",
+      "03.png",
+      "04.png",
+      "05.png",
+      "06.png",
+      "07.png"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "MODULAR POWER GRID",
+     "words": 3,
+     "chars": 18,
+     "lines": 2,
+     "size": 88,
+     "vw": 6.1,
+     "font": "Anton",
+     "weight": 400,
+     "tracking": 0,
+     "leading": 0.9,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.44,
+     "top": 666,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "MODULAR POWER GRID",
+     "words": 3,
+     "lines": 2,
+     "size": 88,
+     "font": "Anton"
+    },
+    "headings": [
+     {
+      "text": "MODULAR POWER GRID",
+      "words": 3,
+      "chars": 18,
+      "lines": 2,
+      "size": 88,
+      "vw": 6.1,
+      "font": "Anton",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.44,
+      "top": 666,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "NAS FOR LOGITECH",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 88,
+      "vw": 6.1,
+      "font": "Anton",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.41,
+      "top": 4744,
+      "tag": "strong",
+      "kind": "heading"
+     },
+     {
+      "text": "EDWARD XU",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 332.7,
+      "vw": 23.1,
+      "font": "Anton",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 0.8,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.97,
+      "top": 5148,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 3,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Work Sans",
+       "share": 0.73,
+       "mono": false
+      },
+      {
+       "family": "Anton",
+       "share": 0.27,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      15,
+      26,
+      88,
+      333
+     ],
+     "sizeCount": 4,
+     "notLoaded": [],
+     "body": null,
+     "measureChars": null,
+     "max": {
+      "size": 332.7,
+      "vw": 23.1,
+      "font": "Anton",
+      "text": "Edward Xu"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.27,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f4f4f2",
+       "top": 0,
+       "hsl": {
+        "h": 60,
+        "s": 0.08,
+        "l": 0.95
+       }
+      },
+      {
+       "color": "#05070a",
+       "top": 5029,
+       "hsl": {
+        "h": 216,
+        "s": 0.33,
+        "l": 0.03
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#1f2b4d",
+       "share": 0.5
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.32
+      },
+      {
+       "color": "#5e657a",
+       "share": 0.18
+      }
+     ],
+     "button": null,
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 0,
+     "inHero": 0,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 7,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.7
+     }
+    ],
+    "nav": {
+     "links": 0,
+     "fixed": false,
+     "height": 45,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "anton",
+     "work sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 5434,
+    "margins": {
+     "left": 24,
+     "right": 32
+    },
+    "sections": [
+     {
+      "sel": "figure.project-hero",
+      "tag": "figure",
+      "top": 0,
+      "height": 630,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.project-head",
+      "tag": "section",
+      "top": 666,
+      "height": 209,
+      "words": 10,
+      "media": 0,
+      "middle": 160,
+      "heading": {
+       "text": "snap-together outlet and USB modules",
+       "size": 26,
+       "tag": "p"
+      },
+      "left": 244,
+      "right": 244,
+      "textLeft": 244,
+      "textRight": 244,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.project-section.project-sketches",
+      "tag": "section",
+      "top": 1003,
+      "height": 724,
+      "words": 0,
+      "media": 19,
+      "middle": 7,
+      "heading": null,
+      "left": 49,
+      "right": 32,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.project-section.is-in",
+      "tag": "section",
+      "top": 1855,
+      "height": 730,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 244,
+      "right": 244,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.project-section.is-in",
+      "tag": "section",
+      "top": 2713,
+      "height": 536,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 244,
+      "right": 244,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.project-section.is-in",
+      "tag": "section",
+      "top": 3377,
+      "height": 536,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 244,
+      "right": 244,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.project-section.is-in",
+      "tag": "section",
+      "top": 4040,
+      "height": 536,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 244,
+      "right": 244,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "a.project-next.is-in",
+      "tag": "a",
+      "top": 4704,
+      "height": 198,
+      "words": 5,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "NAS for Logitech",
+       "size": 88,
+       "tag": "strong"
+      },
+      "left": 284,
+      "right": 571,
+      "textLeft": 284,
+      "textRight": 571,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 5029,
+      "height": 405,
+      "words": 6,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Edward Xu",
+       "size": 333,
+       "tag": "p"
+      },
+      "left": 24,
+      "right": 32,
+      "textLeft": 24,
+      "textRight": 32,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "MODULAR POWER GRID",
+      "size": 88,
+      "top": 666,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 244,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 1,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.08,
+    "voidBox": {
+     "x": 840,
+     "y": 720,
+     "w": 600,
+     "h": 180
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.6,
+    0.61,
+    0.73,
+    0.76,
+    0.69
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 4132,
+     "screens": 4,
+     "words": 24,
+     "img": 25,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 7,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "modular-power-grid.jpg",
+      "04.png",
+      "08.png",
+      "modular-power-grid-concept.png",
+      "modular-power-grid-render.jpg",
+      "modular-power-grid-connector.jpg",
+      "modular-power-grid-colours.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "MODULAR POWER GRID",
+     "words": 3,
+     "chars": 18,
+     "lines": 2,
+     "size": 57.6,
+     "vw": 7.5,
+     "font": "Anton",
+     "weight": 400,
+     "tracking": 0,
+     "leading": 0.9,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.53,
+     "top": 468,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "MODULAR POWER GRID",
+     "words": 3,
+     "lines": 2,
+     "size": 57.6,
+     "font": "Anton"
+    },
+    "headings": [
+     {
+      "text": "MODULAR POWER GRID",
+      "words": 3,
+      "chars": 18,
+      "lines": 2,
+      "size": 57.6,
+      "vw": 7.5,
+      "font": "Anton",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.53,
+      "top": 468,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "NAS FOR LOGITECH",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 57.6,
+      "vw": 7.5,
+      "font": "Anton",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.5,
+      "top": 3599,
+      "tag": "strong",
+      "kind": "heading"
+     },
+     {
+      "text": "EDWARD XU",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 172.1,
+      "vw": 22.4,
+      "font": "Anton",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 0.8,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.94,
+      "top": 3974,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 3,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Work Sans",
+       "share": 0.73,
+       "mono": false
+      },
+      {
+       "family": "Anton",
+       "share": 0.27,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      23,
+      58,
+      172
+     ],
+     "sizeCount": 4,
+     "notLoaded": [],
+     "body": null,
+     "measureChars": null,
+     "max": {
+      "size": 172.1,
+      "vw": 22.4,
+      "font": "Anton",
+      "text": "Edward Xu"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.27,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f4f4f2",
+       "top": 0,
+       "hsl": {
+        "h": 60,
+        "s": 0.08,
+        "l": 0.95
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#1f2b4d",
+       "share": 0.5
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.32
+      },
+      {
+       "color": "#5e657a",
+       "share": 0.18
+      }
+     ],
+     "button": null,
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 0,
+     "inHero": 0,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 5,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.42
+     }
+    ],
+    "nav": {
+     "links": 0,
+     "fixed": false,
+     "height": 44,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "anton",
+     "work sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 4132,
+    "margins": {
+     "left": 24,
+     "right": 24
+    },
+    "sections": [
+     {
+      "sel": "figure.project-hero",
+      "tag": "figure",
+      "top": 0,
+      "height": 432,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.project-head",
+      "tag": "section",
+      "top": 468,
+      "height": 182,
+      "words": 10,
+      "media": 0,
+      "middle": 100,
+      "heading": {
+       "text": "snap-together outlet and USB modules",
+       "size": 23,
+       "tag": "p"
+      },
+      "left": 24,
+      "right": 24,
+      "textLeft": 24,
+      "textRight": 24,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.project-section.project-sketches",
+      "tag": "section",
+      "top": 778,
+      "height": 374,
+      "words": 0,
+      "media": 2,
+      "middle": 3,
+      "heading": null,
+      "left": 37,
+      "right": 28,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.project-section.is-in",
+      "tag": "section",
+      "top": 1280,
+      "height": 552,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 24,
+      "right": 24,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.project-section.is-in",
+      "tag": "section",
+      "top": 1960,
+      "height": 405,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 24,
+      "right": 24,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.project-section.is-in",
+      "tag": "section",
+      "top": 2493,
+      "height": 405,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 24,
+      "right": 24,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.project-section.is-in",
+      "tag": "section",
+      "top": 3026,
+      "height": 405,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 24,
+      "right": 24,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "a.project-next.is-in",
+      "tag": "a",
+      "top": 3559,
+      "height": 169,
+      "words": 5,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "NAS for Logitech",
+       "size": 58,
+       "tag": "strong"
+      },
+      "left": 64,
+      "right": 321,
+      "textLeft": 64,
+      "textRight": 321,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 3857,
+      "height": 275,
+      "words": 6,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Edward Xu",
+       "size": 172,
+       "tag": "p"
+      },
+      "left": 24,
+      "right": 28,
+      "textLeft": 24,
+      "textRight": 28,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "MODULAR POWER GRID",
+      "size": 58,
+      "top": 468,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 24,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 1,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 5,
+   "filled": [
+    0.73,
+    0.73,
+    0.7,
+    0.67,
+    0.57
+   ],
+   "motion": {
+    "elements": 0,
+    "css": 0,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 3965,
+     "screens": 4.7,
+     "words": 24,
+     "img": 25,
+     "video": 0,
+     "canvas": 0,
+     "svg": 0,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 15,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "modular-power-grid.jpg",
+      "01.png",
+      "03.png",
+      "04.png",
+      "06.png",
+      "08.png",
+      "12.png",
+      "14.png"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "MODULAR POWER GRID",
+     "words": 3,
+     "chars": 18,
+     "lines": 1,
+     "size": 40,
+     "vw": 10.3,
+     "font": "Anton",
+     "weight": 400,
+     "tracking": 0,
+     "leading": 0.9,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 395,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "MODULAR POWER GRID",
+     "words": 3,
+     "lines": 1,
+     "size": 40,
+     "font": "Anton"
+    },
+    "headings": [
+     {
+      "text": "MODULAR POWER GRID",
+      "words": 3,
+      "chars": 18,
+      "lines": 1,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Anton",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 395,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "NAS FOR LOGITECH",
+      "words": 3,
+      "chars": 16,
+      "lines": 1,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Anton",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 0.9,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.68,
+      "top": 3542,
+      "tag": "strong",
+      "kind": "heading"
+     },
+     {
+      "text": "EDWARD XU",
+      "words": 2,
+      "chars": 9,
+      "lines": 1,
+      "size": 85.6,
+      "vw": 21.9,
+      "font": "Anton",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 0.8,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3877,
+      "tag": "p",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 3,
+     "maxLines": 1,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 3,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Work Sans",
+       "share": 0.73,
+       "mono": false
+      },
+      {
+       "family": "Anton",
+       "share": 0.27,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      14,
+      20,
+      40,
+      86
+     ],
+     "sizeCount": 4,
+     "notLoaded": [],
+     "body": null,
+     "measureChars": null,
+     "max": {
+      "size": 85.6,
+      "vw": 21.9,
+      "font": "Anton",
+      "text": "Edward Xu"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0.27,
+     "centerShare": 0,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#ffffff",
+     "bodyBgHsl": {
+      "h": 0,
+      "s": 0,
+      "l": 1
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#f4f4f2",
+       "top": 0,
+       "hsl": {
+        "h": 60,
+        "s": 0.08,
+        "l": 0.95
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#1f2b4d",
+       "share": 0.5
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.32
+      },
+      {
+       "color": "#5e657a",
+       "share": 0.18
+      }
+     ],
+     "button": null,
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 0,
+     "inHero": 0,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": []
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 5,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 0.38
+     },
+     {
+      "type": "img",
+      "ratio": 0.13
+     }
+    ],
+    "nav": {
+     "links": 0,
+     "fixed": false,
+     "height": 35,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "anton",
+     "work sans"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 3965,
+    "margins": {
+     "left": 16,
+     "right": 16
+    },
+    "sections": [
+     {
+      "sel": "figure.project-hero",
+      "tag": "figure",
+      "top": 0,
+      "height": 320,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": null,
+      "right": null,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": true,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.project-head",
+      "tag": "section",
+      "top": 340,
+      "height": 162,
+      "words": 13,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Modular Power Grid",
+       "size": 40,
+       "tag": "h1"
+      },
+      "left": 16,
+      "right": 43,
+      "textLeft": 16,
+      "textRight": 43,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.project-section.project-sketches",
+      "tag": "section",
+      "top": 590,
+      "height": 1605,
+      "words": 0,
+      "media": 10,
+      "middle": 16,
+      "heading": null,
+      "left": 16,
+      "right": 16,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.project-section.is-in",
+      "tag": "section",
+      "top": 2283,
+      "height": 275,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 16,
+      "right": 16,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.project-section.is-in",
+      "tag": "section",
+      "top": 2646,
+      "height": 201,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 16,
+      "right": 16,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.project-section.is-in",
+      "tag": "section",
+      "top": 2935,
+      "height": 201,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 16,
+      "right": 16,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.project-section.is-in",
+      "tag": "section",
+      "top": 3224,
+      "height": 201,
+      "words": 0,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 16,
+      "right": 16,
+      "textLeft": null,
+      "textRight": null,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "a.project-next.is-in",
+      "tag": "a",
+      "top": 3514,
+      "height": 129,
+      "words": 5,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "NAS for Logitech",
+       "size": 40,
+       "tag": "strong"
+      },
+      "left": 36,
+      "right": 88,
+      "textLeft": 36,
+      "textRight": 88,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 3731,
+      "height": 234,
+      "words": 6,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Edward Xu",
+       "size": 86,
+       "tag": "p"
+      },
+      "left": 16,
+      "right": 18,
+      "textLeft": 16,
+      "textRight": 18,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "MODULAR POWER GRID",
+      "size": 40,
+      "top": 395,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 16,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 1,
+    "bodySize": 16,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "first-action",
+   "width": 1440,
+   "message": "No visible button in the first screen.",
+   "fix": "Give the one primary action a real button in the first screen (a filled or solid-bordered control, 44px or taller), not only a link in the navigation.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "FAIL",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Only 0 element(s) moved while the page loaded and scrolled.",
+   "fix": "Build the motion layer (SKILL.md step 9, references/motion.md): the signature move, an entrance for the parts of every section, feedback on every control, and one moving picture. Transform and opacity only, with a reduced-motion fallback."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "C:\\Users\\edwar\\OneDrive\\Documents\\portfolio\\.taste-skill\\after\\modular-power-grid\\desktop-fold.jpg",
+   "pages": [
+    "C:\\Users\\edwar\\OneDrive\\Documents\\portfolio\\.taste-skill\\after\\modular-power-grid\\desktop-page-01.jpg",
+    "C:\\Users\\edwar\\OneDrive\\Documents\\portfolio\\.taste-skill\\after\\modular-power-grid\\desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "C:\\Users\\edwar\\OneDrive\\Documents\\portfolio\\.taste-skill\\after\\modular-power-grid\\tablet-fold.jpg",
+   "pages": [
+    "C:\\Users\\edwar\\OneDrive\\Documents\\portfolio\\.taste-skill\\after\\modular-power-grid\\tablet-page-01.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "C:\\Users\\edwar\\OneDrive\\Documents\\portfolio\\.taste-skill\\after\\modular-power-grid\\mobile-fold.jpg",
+   "pages": [
+    "C:\\Users\\edwar\\OneDrive\\Documents\\portfolio\\.taste-skill\\after\\modular-power-grid\\mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

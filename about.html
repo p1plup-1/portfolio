@@ -13,15 +13,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@200;300;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:wght@400;600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <script>document.documentElement.classList.add("js");</script>
+    <script src="site.js" defer></script>
   </head>
 
   <body>
     <header class="site-header">
-      <a class="wordmark" href="index.html">Edward Xu</a>
+      <p class="wordmark"><a href="index.html">Edward Xu</a></p>
       <nav class="site-nav" aria-label="Main">
         <a href="about.html" aria-current="page">About</a>
         <a href="index.html#work">Work</a>
@@ -168,13 +170,13 @@
     </main>
 
     <footer class="site-footer">
-      <a href="mailto:edward.xu2005@outlook.com">edward.xu2005@outlook.com</a>
-      <a
-        href="https://www.linkedin.com/in/ed-xu/"
-        target="_blank"
-        rel="noopener"
-        >LinkedIn</a
-      >
+      <div class="footer-links">
+        <a href="mailto:edward.xu2005@outlook.com">edward.xu2005@outlook.com</a>
+        <a href="https://www.linkedin.com/in/ed-xu/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="about.html">About</a>
+        <a href="index.html#work">Work</a>
+      </div>
+      <p class="footer-name" aria-hidden="true">Edward Xu</p>
     </footer>
   </body>
 </html>

@@ -13,10 +13,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@200;300;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:wght@400;600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <script>document.documentElement.classList.add("js");</script>
+    <script src="site.js" defer></script>
   </head>
 
   <body>
@@ -28,8 +30,14 @@
       <section class="project-head">
         <div>
           <h1>Interactive Lighting</h1>
-          <p class="project-lede">sensor-controlled LED lighting</p>
+          <p class="project-lede">Sensor-controlled LED lighting on a custom PCB</p>
         </div>
+        <nav class="project-nav" aria-label="Main">
+          <a class="project-nav-name" href="index.html">Edward Xu</a>
+          <a href="index.html#work">Work</a>
+          <a href="about.html">About</a>
+          <a href="about.html#contact">Contact</a>
+        </nav>
       </section>
 
       <!-- PLACEHOLDER sections: replace the text, and put <img src="..." alt="">
@@ -81,19 +89,19 @@
       </section>
 
       <a class="project-next" href="modular-power-grid.html">
-        <span>Next project</span>
         <strong>Modular Power Grid</strong>
+        <span>Next project</span>
       </a>
     </main>
 
     <footer class="site-footer">
-      <a href="mailto:edward.xu2005@outlook.com">edward.xu2005@outlook.com</a>
-      <a
-        href="https://www.linkedin.com/in/ed-xu/"
-        target="_blank"
-        rel="noopener"
-        >LinkedIn</a
-      >
+      <div class="footer-links">
+        <a href="mailto:edward.xu2005@outlook.com">edward.xu2005@outlook.com</a>
+        <a href="https://www.linkedin.com/in/ed-xu/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="about.html">About</a>
+        <a href="index.html#work">Work</a>
+      </div>
+      <p class="footer-name" aria-hidden="true">Edward Xu</p>
     </footer>
   </body>
 </html>

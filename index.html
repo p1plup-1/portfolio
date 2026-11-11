@@ -13,15 +13,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@200;300;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:wght@400;600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <script>document.documentElement.classList.add("js");</script>
+    <script src="site.js" defer></script>
   </head>
 
   <body>
     <header class="site-header">
-      <a class="wordmark" href="index.html">Edward Xu</a>
+      <h1 class="wordmark"><a href="index.html">Edward Xu</a></h1>
       <nav class="site-nav" aria-label="Main">
         <a href="about.html">About</a>
         <a href="index.html#work" aria-current="page">Work</a>
@@ -31,16 +33,17 @@
 
     <main>
       <section class="hello">
-        <h1>Hello!</h1>
         <p>
-          I'm Edward, a product and industrial designer taking products from
-          sketch and CAD to a working prototype.
+          Hello! I&#39;m Edward, a product and industrial designer taking
+          products from sketch and CAD to a working prototype.
         </p>
+        <a class="button" href="mailto:edward.xu2005@outlook.com">Email me</a>
       </section>
 
       <!-- SAMPLE projects: replace titles, descriptions and placeholder tiles with real work.
            To add an image, put <img src="..." alt=""> inside .tile-media. -->
-      <section class="work" id="work" aria-label="Work">
+      <section class="work" id="work" aria-labelledby="work-title">
+        <h2 class="work-title" id="work-title">Work</h2>
         <a class="tile" href="modular-power-grid.html">
           <div class="tile-media">
             <img
@@ -76,7 +79,12 @@
           </p>
         </a>
         <a class="tile" href="interactive-lighting.html">
-          <div class="tile-media"></div>
+          <div class="tile-media">
+            <img
+              src="images/interactive-lighting-pcb.png"
+              alt="KiCad PCB layout for the lighting controller: an ESP32 board with six sensor headers and six MOSFET LED channels"
+            />
+          </div>
           <p class="tile-meta">
             <strong>Interactive Lighting</strong
             ><span>sensor-controlled LED lighting</span>
@@ -117,13 +125,13 @@
     </main>
 
     <footer class="site-footer">
-      <a href="mailto:edward.xu2005@outlook.com">edward.xu2005@outlook.com</a>
-      <a
-        href="https://www.linkedin.com/in/ed-xu/"
-        target="_blank"
-        rel="noopener"
-        >LinkedIn</a
-      >
+      <div class="footer-links">
+        <a href="mailto:edward.xu2005@outlook.com">edward.xu2005@outlook.com</a>
+        <a href="https://www.linkedin.com/in/ed-xu/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="about.html">About</a>
+        <a href="index.html#work">Work</a>
+      </div>
+      <p class="footer-name" aria-hidden="true">Edward Xu</p>
     </footer>
   </body>
 </html>
